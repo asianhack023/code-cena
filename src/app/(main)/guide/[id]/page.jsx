@@ -13,8 +13,8 @@ import axios from 'axios';
 import { setLazyProp } from 'next/dist/server/api-utils';
 const iconStyle='w-6 h-6 hover:text-orange-500 hover:scale-110 transition-all '
 function page() {
-      const pathname = usePathname();
-      const pathSegments = pathname.split('/');
+  const pathname = usePathname();
+  const pathSegments = pathname.split("/");
   const id = pathSegments[pathSegments.length - 1]; // Get the last segment
   console.log(id)
 
@@ -140,8 +140,8 @@ const imageType=guide.image.substring(0,4)
             </div>
             
       </div>
-      </>
-  )
+    </>
+  );
 }
 
-export default page
+export default page;
