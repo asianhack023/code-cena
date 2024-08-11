@@ -321,6 +321,56 @@
       "places": ["Patan Durbar Square", "Bhaktapur Durbar Square", "Boudhanath Stupa"],
       "description": "Ravi Thapa is a cultural tour guide from Lalitpur, with a deep passion for showcasing Nepal's rich heritage. He specializes in guiding tours to iconic cultural landmarks such as Patan Durbar Square, Bhaktapur Durbar Square, and Boudhanath Stupa."
     },
+<<<<<<< HEAD
+    "citizenship_card": "https://example.com/bibekbhandari-citizenship",
+    "guide_certificate": "https://example.com/bibekbhandari-certificate",
+    "places": [
+      "Everest Base Camp",
+      "Gokyo Lakes",
+      "Namche Bazaar"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Sunita Lamichhane",
+    "email": "sunitalamichhane@example.com",
+    "password": "sunitapass",
+    "language": "Nepali",
+    "speciality": "religious",
+    "currently_in": "Taplejung",
+    "available": true,
+    "image": "https://i.pravatar.cc/299?img=29",
+    "contact_no": "+977-9810000015",
+    "social_media": {
+      "facebook": "https://facebook.com/shreekrishnarai",
+      "instagram": "https://instagram.com/shreekrishnarai",
+      "linkedin": "https://linkedin.com/in/shreekrishnarai"
+    },
+    "citizenship_card": "https://example.com/sunitalamichhane-citizenship",
+    "guide_certificate": "https://example.com/sunitalamichhane-certificate",
+    "places": [
+      "Taplejung",
+      "Ilam",
+      "Pathibhara Temple"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "babish",
+    "email": "babish@gmail.com",
+    "password": "nothing",
+    "contact_no": "+977asdasdasd",
+    "currently_in": "Arghakhanchi",
+    "language": [],
+    "places": [],
+    "fee": 0,
+    "available": true,
+    "image": "babish_840576",
+    "citizenship_card": "citizenship_babish_582290",
+    "guide_certificate": ""
+  }
+]
+=======
     {
       "id": 15,
       "name": "Sunita Lamichhane",
@@ -345,3 +395,4 @@
       "description": "Sunita Lamichhane is a dedicated guide specializing in religious and spiritual tours in the eastern region of Nepal. Based in Taplejung, she offers insightful tours to sacred sites such as Pathibhara Temple and other revered locations in Taplejung and Ilam."
     }
   ]
+>>>>>>> origin/main
