@@ -1,0 +1,22 @@
+[
+  {
+    "useId": 12,
+    "guideId": 12,
+    "startDate": "",
+    "endDate": ""
+  },
+  {
+    "id": null,
+    "userId": 1,
+    "guideId": 15,
+    "startDate": "2024-08-14T00:00:00.000Z",
+    "endDate": "2024-08-15T00:00:00.000Z"
+  },
+  {
+    "id": 1,
+    "userId": 1,
+    "guideId": 2,
+    "startDate": "2024-08-13T00:00:00.000Z",
+    "endDate": "2024-08-14T00:00:00.000Z"
+  }
+]
