@@ -156,7 +156,7 @@ const page = () => {
                       ${item.fee}.00
                     </Typography>
                   </div>
-                  <div className="flex flex-col gap-1 mt-2">
+                  <div className="flex flex-col gap-2 mt-2 justify-start">
                     <Typography
                       variant="small"
                       color="gray"
@@ -173,6 +173,14 @@ const page = () => {
                       <Globe className="h-5 w-5" />
                       {item.language}
                     </Typography>
+
+                    <Badge
+                      className={`self-start ${
+                        item.available ? "bg-green-400" : "bg-red-400"
+                      }`}
+                    >
+                      {item.available ? "Available" : "Unavailable"}
+                    </Badge>
                   </div>
                 </CardBody>
                 <CardFooter className="pt-0">
