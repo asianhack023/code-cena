@@ -7,8 +7,8 @@ export async function POST(request) {
     const { email, password } = await request.json();
     console.log(email, password);
       const totalUsers=guideList.concat(touristList)
-    const user = touristList.find((user) => user.email === email);
-
+    const user = totalUsers.find((user) => user.email === email);
+      console.log(user)
     if (user && user.password === password) {
       // Encode email and password into a cookie (not recommended for production)
       const cookieValue = `${encodeURIComponent(email)}:${encodeURIComponent(password)}`;
