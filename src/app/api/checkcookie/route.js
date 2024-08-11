@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import cookie from 'cookie';
 import guideList from '../../../../guide.json';
+import touristList from '../../../../tourist.json'
 
 export async function GET(request) {
   try {
@@ -9,8 +10,9 @@ export async function GET(request) {
 
     if (userToken) {
       const [email, password] = userToken.split(':').map(decodeURIComponent);
+      const totalUsers=guideList.concat(touristList)
 
-      const user = guideList.find((user) => user.email === email && user.password === password);
+      const user = totalUsers.find((user) => user.email === email && user.password === password);
 
       if (user) {
         return NextResponse.json({ success: true, message: "User is logged in" });

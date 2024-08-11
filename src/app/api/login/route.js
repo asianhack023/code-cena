@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
 import cookie from 'cookie';
 import guideList from '../../../../guide.json';
-
+import touristList from '../../../../tourist.json'
 export async function POST(request) {
   try {
     const { email, password } = await request.json();
     console.log(email, password);
-
-    const user = guideList.find((user) => user.email === email);
+      const totalUsers=guideList.concat(touristList)
+    const user = touristList.find((user) => user.email === email);
 
     if (user && user.password === password) {
       // Encode email and password into a cookie (not recommended for production)

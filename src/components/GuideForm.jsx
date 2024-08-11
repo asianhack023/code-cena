@@ -154,12 +154,9 @@ const handleSubmit = async () => {
        document.getElementById('citizenship').value='';
        if(certifiedGuide)
             document.getElementById('certificate').value='';
-       
 
       }
     };
-    
-    
 
   return (
     <div className="w-full mx-auto p-4  h-auto min-h-screen flex flex-col justify-center sm:w-2/3 md:w-3/6 lg:w-2/6">
@@ -228,8 +225,6 @@ const handleSubmit = async () => {
             disabled={loading}
           />
         </div>
-
-
         
       </div>
       <div className="w-full flex flex-col gap-2">
