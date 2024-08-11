@@ -361,18 +361,17 @@
   },
   {
     "id": 16,
-    "name": "asdasd",
-    "email": "ramthapa2@example.com",
-    "password": "password123",
-    "contact_no": "asd",
-    "currently_in": "",
-    "language": [
-      "Armenian",
-      "Amharic"
-    ],
-    "places": [
-      "Baitadi"
-    ],
-    "fee": "0123"
+    "name": "babish",
+    "email": "babish@gmail.com",
+    "password": "nothing",
+    "contact_no": "+977asdasdasd",
+    "currently_in": "Arghakhanchi",
+    "language": [],
+    "places": [],
+    "fee": 0,
+    "available": true,
+    "image": "babish_840576",
+    "citizenship_card": "citizenship_babish_582290",
+    "guide_certificate": ""
   }
 ]

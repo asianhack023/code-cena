@@ -15,7 +15,7 @@ export async function GET(request) {
       const user = totalUsers.find((user) => user.email === email && user.password === password);
 
       if (user) {
-        return NextResponse.json({ success: true, message: "User is logged in" });
+        return NextResponse.json({ success: true, message: "User is logged in", user });
       } else {
         return NextResponse.json({ success: false, message: "Invalid session" }, { status: 200 });
       }

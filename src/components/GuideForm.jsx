@@ -285,7 +285,6 @@ const handleSubmit = async () => {
         </div>
 
         <div className="w-full flex gap-2">
-          <checkbox id="certified" />
           <input
             type="checkbox"
             onChange={(e) => setCertifiedGuide(e.target.checked)}
@@ -293,7 +292,6 @@ const handleSubmit = async () => {
           <label className="font-semibold" htmlFor="">
             I am certified Guide
           </label>
-          <Checkbox id="certified" />
         </div>
         {certifiedGuide && (
           <>
